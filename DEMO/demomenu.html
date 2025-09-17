@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Little Tacos Shop - Menu</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+    header {
+      background: #d35400;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .menu-section {
+      padding: 2rem;
+    }
+    h2 {
+      color: #d35400;
+      border-bottom: 2px solid #d35400;
+      padding-bottom: 0.5rem;
+    }
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .item {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .item img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+    .item h3 {
+      margin: 0.5rem 0;
+    }
+    .item p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Little Tacos Shop</h1>
+    <nav>
+      <a href="indexx.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Tacos -->
+  <section class="menu-section">
+    <h2>Tacos</h2>
+    <div class="menu-grid">
+      <div class="item">
+        <img src="images/taco1.jpg" alt="Beef Taco">
+        <h3>Beef Taco</h3>
+        <p>$3.50</p>
+      </div>
+      <div class="item">
+        <img src="images/taco2.jpg" alt="Chicken Taco">
+        <h3>Chicken Taco</h3>
+        <p>$3.00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Burritos -->
+  <section class="menu-section">
+    <h2>Burritos</h2>
+    <div class="menu-grid">
+      <div class="item">
+        <img src="images/burrito1.jpg" alt="Beef Burrito">
+        <h3>Beef Burrito</h3>
+        <p>$5.50</p>
+      </div>
+      <div class="item">
+        <img src="images/burrito2.jpg" alt="Veggie Burrito">
+        <h3>Veggie Burrito</h3>
+        <p>$5.00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quesadillas -->
+  <section class="menu-section">
+    <h2>Quesadillas</h2>
+    <div class="menu-grid">
+      <div class="item">
+        <img src="images/quesadilla1.jpg" alt="Cheese Quesadilla">
+        <h3>Cheese Quesadilla</h3>
+        <p>$4.00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nachos -->
+  <section class="menu-section">
+    <h2>Nachos</h2>
+    <div class="menu-grid">
+      <div class="item">
+        <img src="images/nachos1.jpg" alt="Classic Nachos">
+        <h3>Classic Nachos</h3>
+        <p>$3.50</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
